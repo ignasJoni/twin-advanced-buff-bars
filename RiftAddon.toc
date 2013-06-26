@@ -1,0 +1,52 @@
+--[[
+			   TWIN: ADVANCED BUFF BARS  
+			------------------------------
+			 ignas.jonikavicius@gmail.com
+			------------------------------
+			
+			Version: 0.0.1 (alpha)
+			Started: 26 June 2013
+]]--
+
+Identifier = "TwinABB"
+
+Name = {
+  English = "TwinABB",
+  French = "TwinABB",
+  German = "TwinABB",
+}
+
+NameShort = "tABB"
+
+Description = {
+  English = "Twin: Advanced Buff Bars"
+}
+
+Author = "Ignas Jonikavicius"
+Website = ""
+Version = "0.0.1"
+
+Email = "ignas.jonikavicius@gmail.com"
+
+Environment = "2.3"
+
+Embed = {
+	--["lib/LibAsyncTextures"] = true
+}
+
+Dependencies = {
+}
+
+SavedVariables = {
+	--tGrouping = "account",
+	--tFramesConfig = "character"
+}
+
+RunOnStartup = {
+	--"TwinGlobals.lua",
+	--"twinGrouping.lua",
+	--"twinGUI-elements/icons.lua",
+	--"twinGUI-elements/elements.lua",
+	--"twinGUI-elements/form-BuffGroup.lua",
+	--"TwinABT-options.lua",
+}
