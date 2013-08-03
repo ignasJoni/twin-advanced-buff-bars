@@ -32,6 +32,7 @@ Environment = "2.3"
 
 Embed = {
 	--["lib/LibAsyncTextures"] = true
+	["Lib/LibTwinElements"] = true
 }
 
 Dependencies = {
@@ -39,10 +40,17 @@ Dependencies = {
 
 SavedVariables = {
 	--tGrouping = "account",
-	--tFramesConfig = "character"
+	twinConfig = "character"
 }
 
 RunOnStartup = {
+	"twin.objects.lua",
+	"twin.functions.lua",
+	"TwinABB.lua",
+	"twin.frames.lua",
+	"twin.buffs.lua",
+	"twin.button.lua",
+	"twin.settings.lua",
 	--"TwinGlobals.lua",
 	--"twinGrouping.lua",
 	--"twinGUI-elements/icons.lua",

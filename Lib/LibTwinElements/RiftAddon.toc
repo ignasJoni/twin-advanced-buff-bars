@@ -1,0 +1,34 @@
+Identifier = "LibTwinElements"
+
+Name = {
+  English = "Twin Elements Library",
+}
+
+NameShort = "TEL"
+
+Description = {
+  English = "Twin Elements",
+}
+
+Author = "Ignas Jonikavicius"
+Website = ""
+Version = "0.1"
+Email = "ignas.jonikavicius@gmail.com"
+Environment = "2.3"
+
+RunOnStartup = {
+  "main.lua",
+  "color.lua",
+  "button.lua",
+  "window.lua",
+  "tabbedpanel.lua",
+  "section.lua",
+  "subsection.lua",
+  "input.lua",
+--  "checkbox.lua",
+  "checkboxgroup.lua",
+  "checkboxanchors.lua",
+  "list.lua",
+  "uitwinelem.lua",
+--  "layout.lua",
+}
