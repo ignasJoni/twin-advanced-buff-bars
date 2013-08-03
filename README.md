@@ -16,4 +16,5 @@ Started: 26 June 2013
 <li>React to changes (update GUI)</li>
 <li>[backend] Create logic for buffs: add/remove/change</li>
 <li>[frontend] React on buffs changes</li>
+<li>React on users actions (hover, right click)</li>
 </ul>
